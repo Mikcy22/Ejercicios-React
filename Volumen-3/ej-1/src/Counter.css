@@ -1,0 +1,33 @@
+/* BEM - Block Element Modifier */
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .counter__display {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .counter__buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .counter__buttons__increment,
+  .counter__buttons__decrement {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .counter__buttons__increment:hover,
+  .counter__buttons__decrement:hover {
+    background-color: #0056b3;
+  }
+  
