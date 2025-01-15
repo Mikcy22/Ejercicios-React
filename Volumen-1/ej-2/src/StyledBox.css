@@ -1,0 +1,11 @@
+.styled-box {
+    border: 2px solid #3498db;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #2c3e50;
+    width: 300px;
+    margin: 20px auto;
+}

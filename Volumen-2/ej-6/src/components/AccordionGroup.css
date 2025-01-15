@@ -1,0 +1,6 @@
+.accordion-group {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+  }
+  
