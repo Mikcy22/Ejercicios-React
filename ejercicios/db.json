@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Concierto de Rock",
+      "date": "2025-01-20",
+      "description": "Concierto en el estadio principal",
+      "isFavorite": true
+    },
+    {
+      "id": "5945",
+      "title": "Concierto de prueba 1",
+      "date": "2025-01-29",
+      "description": "Pruebas 1",
+      "isFavorite": true
+    }
+  ]
+}

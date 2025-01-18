@@ -1,0 +1,4 @@
+Aqui hay un archivo de js server, el cual debemos poner en el directorio de raiz(db.json)
+el cual lanzamos en el puerto 5000 con el comando ( json-server --watch db.json --port 5000 )
+y despues ejecutamos el proyecto.
+
