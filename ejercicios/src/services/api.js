@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://192.168.56.1:5000/events'; // Prueba con localhost y 127.0.0.1
+const API_URL = 'http://localhost:5000/events'; // Prueba con localhost y 127.0.0.1
 
 
 export const fetchEvents = () => axios.get(API_URL);

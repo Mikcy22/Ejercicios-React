@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Esto es el componente.
 const ItemList = ({ items }) => {
     return (
         <ul>
@@ -9,5 +10,7 @@ const ItemList = ({ items }) => {
         </ul>
     );
 };
+//esto
 
+//abajo exporta el componente:
 export default ItemList;

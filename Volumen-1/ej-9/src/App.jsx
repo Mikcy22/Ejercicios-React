@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Boton';
+import Manolo from './Boton';
 
 const App = () => {
     // Función para manejar el clic en el botón
@@ -7,10 +7,11 @@ const App = () => {
         alert("¡Has hecho clic en el botón!");
     };
 
+    //devuelve el boton con la funcion
     return (
         <div>
             <h1>Componente Button</h1>
-            <Button onClick={handleClick}>Haz clic aquí</Button>
+            <Manolo onClick={handleClick}>Haz clic aquí</Manolo>
         </div>
     );
 };
