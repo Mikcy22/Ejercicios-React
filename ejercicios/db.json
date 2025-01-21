@@ -1,18 +1,63 @@
 {
-  "events": [
+  "categorias": [
+    { "id": 1, "nombre": "Lucha" },
+    { "id": 2, "nombre": "Arcade" },
+    { "id": 3, "nombre": "Plataformas" },
+    { "id": 4, "nombre": "Shooter" },
+    { "id": 5, "nombre": "Estrategia" },
+    { "id": 6, "nombre": "Simulación" },
+    { "id": 7, "nombre": "Deporte" },
+    { "id": 8, "nombre": "Aventura" },
+    { "id": 9, "nombre": "Rol" },
+    { "id": 10, "nombre": "Educación" },
+    { "id": 11, "nombre": "Puzzle" }
+  ],
+  "plataformas": [
+    { "id": 1, "nombre": "PC" },
+    { "id": 2, "nombre": "PS5" },
+    { "id": 3, "nombre": "Xbox One" },
+    { "id": 4, "nombre": "Switch" },
+    { "id": 5, "nombre": "Android" },
+    { "id": 6, "nombre": "iOS" },
+    { "id": 7, "nombre": "Otras" }
+  ],
+  "videojuegos": [
     {
-      "id": "1",
-      "title": "Concierto de Rock",
-      "date": "2025-01-20",
-      "description": "Concierto en el estadio principal",
-      "isFavorite": true
+      "id": 1,
+      "nombre": "Super Mario",
+      "descripcion": "Un juego clásico de plataformas...",
+      "fecha_lanzamiento": "2021-06-15",
+      "compañia": "Nintendo",
+      "plataformas": ["PC", "Switch"],
+      "categorias": ["Plataformas", "Arcade"],
+      "precio": 59.99,
+      "url_imagen": "/images/super_mario.png",
+      "url_video": "/videos/super_mario.mp4"
     },
     {
-      "id": "5945",
-      "title": "Concierto de prueba 1",
-      "date": "2025-01-29",
-      "description": "Pruebas 1",
-      "isFavorite": true
+      "id": 2,
+      "nombre": "FIFA 2023",
+      "descripcion": "Simulación realista de fútbol...",
+      "fecha_lanzamiento": "2023-09-29",
+      "compañia": "EA Sports",
+      "plataformas": ["PC", "PS5", "Xbox One"],
+      "categorias": ["Deporte"],
+      "precio": 49.99,
+      "url_imagen": "/images/fifa2023.png",
+      "url_video": "/videos/fifa2023.mp4"
+    },
+    {
+      "id": 3,
+      "nombre": "League of Legends",
+      "descripcion": "Juego de estrategia en línea...",
+      "fecha_lanzamiento": "2009-10-27",
+      "compañia": "Riot Games",
+      "plataformas": ["PC"],
+      "categorias": ["Estrategia", "Shooter"],
+      "precio": 0,
+      "url_imagen": "/images/league_of_legends.png",
+      "url_video": "/videos/league_of_legends.mp4"
     }
+  
   ]
 }
