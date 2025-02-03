@@ -1,5 +1,5 @@
 import React from 'react';
-import ToggleText from './Carousel';
+import ToggleText from './ToggleText';
 
 const App = () => {
   return (
