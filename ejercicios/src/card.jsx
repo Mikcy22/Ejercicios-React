@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 import styled from 'styled-components';
+import './styles.css';
 
 const cardsData = [
   { id: 1, content: 'A' },
   { id: 2, content: 'A' },
   { id: 3, content: 'B' },
   { id: 4, content: 'B' },
-  { id: 5, content: 'C' },
-  { id: 6, content: 'C' },
-  { id: 7, content: 'D' },
-  { id: 8, content: 'D' },];
+  // Agrega más cartas según sea necesario
+];
 
 const Card = styled.div`
   width: 100px;
@@ -32,7 +32,7 @@ const App = () => {
   };
 
   return (
-    <div className="game-board" style={{ display: 'flex', flexWrap: 'wrap' }}>
+    <div className="game-board">
       {cards.map(card => (
         <Card key={card.id} visible={card.visible} onClick={() => handleCardClick(card.id)}>
           {card.visible ? card.content : ''}
@@ -42,4 +42,4 @@ const App = () => {
   );
 };
 
-export default App;
+ReactDOM.render(<App />, document.getElementById('root'));
