@@ -1,0 +1,39 @@
+.color-selector {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .color-selector__title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .color-selector__list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .color-selector__item {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .color-selector__item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .color-selector__item--selected {
+    background-color: #d3d3d3;
+    border-color: #888;
+  }
+  
+  .color-selector__selected {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
